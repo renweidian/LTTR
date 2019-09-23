@@ -26,7 +26,7 @@
 clear
 clc
 
-addpath(genpath('LTTR'))
+addpath(genpath('LTTR_file'))
 
 F=create_F();
 sf = 8;
