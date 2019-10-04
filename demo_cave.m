@@ -136,7 +136,7 @@ para.K=160;
 para.eta=1e-2;
 t0=clock;
  Z = LTTR_FUS(Y_h,Y,F,para.K,para.eta, par.fft_B,sf,S);
-  t4(yy)=etime(clock,t0)
+  t4=etime(clock,t0)
  [psnr4,rmse4, ergas4, sam4, uiqi4,ssim4,DD4,CC4] = quality_assessment(double(im2uint8(S)), double(im2uint8(Z)), 0, 1.0/sf);
 
 
