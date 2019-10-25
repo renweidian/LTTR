@@ -30,9 +30,7 @@ addpath(genpath('LTTR_file'))
 
 F=create_F();
 sf = 8;
-pathstr = fileparts('C:\Users\Utilizador\Desktop\drw\shuju\shuju1');
-dirname = fullfile(pathstr, 'shuju1','*.mat');
-imglist = dir(dirname);
+
 
 sz=[512 512];
 s0=1;
